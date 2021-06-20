@@ -24,7 +24,7 @@ echo -e $b" >>>"$w" 7. Video "$g"1440p"$w
 
 
 command='-no-mtime -o /data/data/com.termux/files/home/storage/shared/Youtube/%(title)s.%(ext)s -f'
-read -p "  " option
+read -p " options: " option
 
 if [ "$option" -eq "1" ]
 then
