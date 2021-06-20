@@ -1,3 +1,9 @@
+g="\033[1;32m"
+r="\033[1;31m"
+b="\033[1;34m"
+w="\033[0m"
+o="\033[1;33m"
+
 clear
 echo '
 ▄ ▄ ▄▄▄ ▄ ▄ ▄▄▄ ▄ ▄ ▄   ▄▄▄    ▄ ▄  ▄▄  ▄▄ ▄ ▄
@@ -7,14 +13,14 @@ echo '
 echo -e "\e[032m" "Author  : misha korzhik (Міша Коржик)"
 echo -e "\e[032m" "github  : https://github.com/mishakorzik"        
 echo -e "\e[032m" ""
-echo -e "\e[032m" "[^^] Please select a format"
-echo -e "\e[032m" ">>> 1. Music Mp3♫"
-echo -e "\e[032m" ">>> 3. Video 144p"
-echo -e "\e[032m" ">>> 3. Video 360p"
-echo -e "\e[032m" ">>> 4. Video 480p"
-echo -e "\e[032m" ">>> 5. Video 720p"
-echo -e "\e[032m" ">>> 6. Video 1080p"
-echo -e "\e[032m" ">>> 7. Video 1440p"
+echo -e $b" >>>"$w" Please Select A "$r"Format"$w
+echo -e $b" >>>"$w" 1. Music "$g"Mp3♫"$w
+echo -e $b" >>>"$w" 2. Video "$g"144p"$w
+echo -e $b" >>>"$w" 3. Video "$g"360p"$w
+echo -e $b" >>>"$w" 4. Video "$g"480p"$w
+echo -e $b" >>>"$w" 5. Video "$g"720p"$w
+echo -e $b" >>>"$w" 6. Video "$g"1080p"$w
+echo -e $b" >>>"$w" 7. Video "$g"1440p"$w
 
 
 command='-no-mtime -o /data/data/com.termux/files/home/storage/shared/Youtube/%(title)s.%(ext)s -f'
