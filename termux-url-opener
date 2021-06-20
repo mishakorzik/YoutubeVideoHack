@@ -16,11 +16,12 @@ echo "\e[032m" ""
 echo $b" >>>"$w" Please Select A "$r"Format"$w
 echo $b" >>>"$w" 1. Music "$g"Mp3♫"$w
 echo $b" >>>"$w" 2. Video "$g"144p"$w
-echo $b" >>>"$w" 3. Video "$g"360p"$w
-echo $b" >>>"$w" 4. Video "$g"480p"$w
-echo $b" >>>"$w" 5. Video "$g"720p"$w
-echo $b" >>>"$w" 6. Video "$g"1080p"$w
-echo $b" >>>"$w" 7. Video "$g"1440p"$w
+echo $b" >>>"$w" 3. Video "$g"240p"$w
+echo $b" >>>"$w" 4. Video "$g"360p"$w
+echo $b" >>>"$w" 5. Video "$g"480p"$w
+echo $b" >>>"$w" 6. Video "$g"720p"$w
+echo $b" >>>"$w" 7. Video "$g"1080p"$w
+echo $b" >>>"$w" 8. Video "$g"1440p"$w
 
 
 command='-no-mtime -o /data/data/com.termux/files/home/storage/shared/Youtube/%(title)s.%(ext)s -f'
@@ -38,24 +39,29 @@ then
 
 elif [ "$option" -eq "3" ]
 then
-    echo "$command \"best[height<=360]\"" > ~/.config/youtube-dl/config
+    echo "$command \"best[height<=240]\"" > ~/.config/youtube-dl/config
     youtube-dl $1
 
 elif [ "$option" -eq "4" ]
 then
-    echo "$command \"best[height<=480]\"" > ~/.config/youtube-dl/config
+    echo "$command \"best[height<=360]\"" > ~/.config/youtube-dl/config
     youtube-dl $1
 
 elif [ "$option" -eq "5" ]
 then
-    echo "$command \"best[height<=720]\"" > ~/.config/youtube-dl/config
+    echo "$command \"best[height<=480]\"" > ~/.config/youtube-dl/config
     youtube-dl $1
 
 elif [ "$option" -eq "6" ]
 then
+    echo "$command \"best[height<=720]\"" > ~/.config/youtube-dl/config
+    youtube-dl $1
+
+elif [ "$option" -eq "7" ]
+then
     echo "$command \"best[height<=1080]\"" > ~/.config/youtube-dl/config
     youtube-dl $1
-elif [ "$option" -eq "7" ]
+elif [ "$option" -eq "8" ]
 then
     echo "$command \"best[height<=1440]\"" > ~/.config/youtube-dl/config
     youtube-dl $1
