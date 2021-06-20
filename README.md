@@ -37,5 +37,14 @@
 
 ----
 
+* `By mishakorzhik`
+* `Tranks for read`
+
+##### Report bugs for YouTube-Hack
+##### Bye Bye! Have A Nice Day!
+
+* `misakorzik528@gmail.com` 
+
+
 
 
