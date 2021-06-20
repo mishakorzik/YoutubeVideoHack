@@ -10,17 +10,17 @@ echo '
 █▄█ █ █ █░█  █  █░█ █▄▄ █▄▄ ▄▄ █░█ █ █ █   █▄▀
 ░█░ █▄█ █▄█ ░█░ █▄█ █▄█ █▄▄ ░░ █▀█ █▀█ █▄▄ █░█ v0.2
 '|lolcat -p 1.2
-echo -e "\e[032m" "Author  : misha korzhik (Міша Коржик)"
-echo -e "\e[032m" "github  : https://github.com/mishakorzik"        
-echo -e "\e[032m" ""
-echo -e $b" >>>"$w" Please Select A "$r"Format"$w
-echo -e $b" >>>"$w" 1. Music "$g"Mp3♫"$w
-echo -e $b" >>>"$w" 2. Video "$g"144p"$w
-echo -e $b" >>>"$w" 3. Video "$g"360p"$w
-echo -e $b" >>>"$w" 4. Video "$g"480p"$w
-echo -e $b" >>>"$w" 5. Video "$g"720p"$w
-echo -e $b" >>>"$w" 6. Video "$g"1080p"$w
-echo -e $b" >>>"$w" 7. Video "$g"1440p"$w
+echo "\e[032m" "Author  : misha korzhik (Міша Коржик)"
+echo "\e[032m" "github  : https://github.com/mishakorzik"        
+echo "\e[032m" ""
+echo $b" >>>"$w" Please Select A "$r"Format"$w
+echo $b" >>>"$w" 1. Music "$g"Mp3♫"$w
+echo $b" >>>"$w" 2. Video "$g"144p"$w
+echo $b" >>>"$w" 3. Video "$g"360p"$w
+echo $b" >>>"$w" 4. Video "$g"480p"$w
+echo $b" >>>"$w" 5. Video "$g"720p"$w
+echo $b" >>>"$w" 6. Video "$g"1080p"$w
+echo $b" >>>"$w" 7. Video "$g"1440p"$w
 
 
 command='-no-mtime -o /data/data/com.termux/files/home/storage/shared/Youtube/%(title)s.%(ext)s -f'
