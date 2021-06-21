@@ -10,7 +10,7 @@ echo '
 █▄█ █ █ █░█  █  █░█ █▄▄ █▄▄ ▄▄ █░█ █ █ █   █▄▀
 ░█░ █▄█ █▄█ ░█░ █▄█ █▄█ █▄▄ ░░ █▀█ █▀█ █▄▄ █░█ v0.2
 '|lolcat -p 1.2
-echo $g" "Author  : misha korzhik (Міша Коржик)"
+echo $g" "Author  : misha korzhik; Міша Коржик"
 echo $g" "github  : https://github.com/mishakorzik"        
 echo $g" ""
 echo $b" >>>"$w" Please Select A "$r"Format"$w
