@@ -10,9 +10,9 @@ echo '
 █▄█ █ █ █░█  █  █░█ █▄▄ █▄▄ ▄▄ █░█ █ █ █   █▄▀
 ░█░ █▄█ █▄█ ░█░ █▄█ █▄█ █▄▄ ░░ █▀█ █▀█ █▄▄ █░█ v0.2
 '|lolcat -p 1.2
-echo "\e[032m" "Author  : misha korzhik (Міша Коржик)"
-echo "\e[032m" "github  : https://github.com/mishakorzik"        
-echo "\e[032m" ""
+echo $g" "Author  : misha korzhik (Міша Коржик)"
+echo $g" "github  : https://github.com/mishakorzik"        
+echo $g" ""
 echo $b" >>>"$w" Please Select A "$r"Format"$w
 echo $b" >>>"$w" 1. Music "$g"Mp3♫"$w
 echo $b" >>>"$w" 2. Video "$g"144p"$w
