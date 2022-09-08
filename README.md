@@ -43,7 +43,7 @@
 ##### Report bugs for YouTube-Hack
 ##### Bye Bye! Have A Nice Day!
 
-* `miguardzecurity@gmail.com` 
+* `develiper.mishakorzhik@gmail.com` 
 
 
 
